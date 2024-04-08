@@ -1,0 +1,13 @@
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="text"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
+    border: 1px solid green;
+  }
+  input[type="text"].empty, input[type="email"].empty, textarea.empty, select.empty {
+    border: 1px solid red;
+  }
